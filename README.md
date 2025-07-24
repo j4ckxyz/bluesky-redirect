@@ -45,12 +45,7 @@ The extension redirects all URLs under `bsky.app` to your preferred client while
 
 Set these as your redirect target:
 ```
-https://deer.social
-https://sky.pablof7z.com
-https://bs.jazco.io
-https://www.arcst.one
-https://www.chronik.one
-```
+https://deer.social```
 ## Popular Alternative Clients
 
 The extension comes with quick-select buttons for popular alternatives:
@@ -64,7 +59,7 @@ Or enter any custom URL that follows the same URL structure as bsky.app.
 
 ### From GitHub Release
 
-1. Go to the [Releases page](https://github.com/[YOUR_REPO]/releases) for this extension
+1. Go to the [Releases page](https://github.com/j4ckxyz/bluesky-redirect/releases) for this extension
 2. Download the latest `bluesky-redirect-extension.zip` file
 3. Extract the ZIP file to a folder on your computer
 4. Open Chrome/Chromium and navigate to `chrome://extensions/`
@@ -150,5 +145,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Coded with** Claude 4 Sonnet AI assistant  
 - **Goose Platform**: Part of the "Codename Goose" vibecoding project  
 - **Special Thanks**: Deer.social team for inspiring this redirect tool
-
-_"When goose honks, bluesky links redirect!"_ 🦢✨
