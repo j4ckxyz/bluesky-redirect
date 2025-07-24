@@ -23,29 +23,24 @@ The extension redirects all URLs under `bsky.app` to your preferred client while
 
 1. **User Profiles**
    - `https://bsky.app/profile/alice.bsky.social` 
-     → `https://deer.social/profile/alice.bsky.social`
+   → `https://deer.social/profile/alice.bsky.social`
 
 2. **Individual Posts**
    - `https://bsky.app/profile/bob.bsky.social/post/3kp7q2fq7bv2a`
-     → `https://deer.social/profile/bob.bsky.social/post/3kp7q2fq7bv2a`
+   → `https://deer.social/profile/bob.bsky.social/post/3kp7q2fq7bv2a`
 
 3. **Feeds**
    - `https://bsky.app/profile/did:plc:xyz123/feed/my-fav-feed`
-     → `https://deer.social/profile/did:plc:xyz123/feed/my-fav-feed`
+   → `https://deer.social/profile/did:plc:xyz123/feed/my-fav-feed`
 
 4. **Custom Algorithms**
    - `https://bsky.app/profile/bsky.app/feed/whats-hot`
-     → `https://deer.social/profile/bsky.app/feed/whats-hot`
+   → `https://deer.social/profile/bsky.app/feed/whats-hot`
 
 5. **Search Results**
    - `https://bsky.app/search?q=bluesky`
-     → `https://deer.social/search?q=bluesky`
+   → `https://deer.social/search?q=bluesky`
 
-### Custom Client Examples
-
-Set these as your redirect target:
-```
-https://deer.social```
 ## Popular Alternative Clients
 
 The extension comes with quick-select buttons for popular alternatives:
@@ -55,7 +50,16 @@ The extension comes with quick-select buttons for popular alternatives:
 
 Or enter any custom URL that follows the same URL structure as bsky.app.
 
-### Installation
+### Custom Client Examples
+
+Set these as your redirect target:
+```
+https://deer.social
+https://staging.bsky.app
+https://custom-bluesky-client.com
+```
+
+## Installation
 
 ### From GitHub Release
 
@@ -69,13 +73,13 @@ Or enter any custom URL that follows the same URL structure as bsky.app.
 
 ### From Source (Developer Mode)
 
-1. Clone this repository `git clone https://github.com/[YOUR_REPO]/bluesky-redirect-extension.git`
+1. Clone this repository `git clone https://github.com/j4ckxyz/bluesky-redirect-extension.git`
 2. Open Chrome/Chromium and navigate to `chrome://extensions/`
 3. Enable "Developer mode" in the top right
 4. Click "Load unpacked" and select the cloned repository directory
 5. The extension will appear in your toolbar
 
-### Configuration
+## Configuration
 
 1. Click the extension icon in the toolbar
 2. Toggle "Enable redirects" on/off as needed
